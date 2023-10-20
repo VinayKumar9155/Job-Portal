@@ -1,5 +1,3 @@
-// src/components/JobBoard.js
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -84,7 +82,7 @@ const JobBoard = () => {
   };
 
   return (
-    <div className="container mx-auto py-6 text-gray-900" style={{ background: '#f0f0f0' }}>
+    <div className="container mx-auto py-6 text-gray-900" style={{ background: '#f6f6ef' }}>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4">
         {jobPostings.map((job) => (
           <div key={job.id} className="bg-white p-4 rounded shadow m-4 mx-auto job-posting" style={{ width: "600px"}}>
